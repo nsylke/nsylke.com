@@ -11,7 +11,6 @@ const Content: React.FunctionComponent = () => (
                     <p>I have implemented sites from the ground up and improved/upgraded legacy systems to current ones. I have worked with platforms and frameworks like WordPress and Shopify.</p>
                     <p>I use the following programming languages: Java, PHP, Node.js, JavaScript, Ruby, and C++. I also adhere to best practices in the software industry including, but not limited to, version control, backups, and documented code.</p>
                     <p>
-                        <a href="https://facebook.com/nsylke"><i className="fab fa-facebook-f"/></a>
                         <a href="https://twitter.com/nsylke"><i className="fab fa-twitter"/></a>
                         <a href="https://linkedin.com/in/nsylke"><i className="fab fa-linkedin-in"/></a>
                         <a href="https://dribbble.com/nsylke"><i className="fab fa-dribbble"/></a>
