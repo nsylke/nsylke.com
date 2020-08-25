@@ -40,7 +40,6 @@ const Content: React.FunctionComponent = () => (
 
             .content {
                 font-size: 1.2em;
-                font-family: 'Open Sans', sans-serif;
                 font-weight: 500;
                 padding: 100px 0 55px;
                 position: relative;

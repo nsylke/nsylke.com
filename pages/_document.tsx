@@ -30,7 +30,7 @@ class MyDocument extends Document {
 
                     <link rel="stylesheet" href="css/normalize.css" />
                     <link rel="stylesheet" href="/css/nprogress.css" />
-                    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" />
+                    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600.700&display=swap" />
 
                     <script src="https://kit.fontawesome.com/491005fb35.js" />
                 </Head>

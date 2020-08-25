@@ -6,9 +6,9 @@ import Content from '../components/Content';
 const IndexPage: NextPage = () => (
     <React.Fragment>
         <Head>
-            <title>Nicholas Sylke</title>
+            <title>Nicholas Sylke — Software Engineer</title>
         </Head>
-        <Content/>
+        <Content />
         {/* language=CSS */}
         <style jsx global>{`
             html {
@@ -17,7 +17,7 @@ const IndexPage: NextPage = () => (
 
             body {
                 height: 100%;
-                background-color: #194271;
+                font-family: 'Inter', sans-serif;
                 font-size: 10px;
                 color: #FFFFFF;
                 -webkit-font-smoothing: antialiased;
