@@ -3,7 +3,7 @@ import { NextPage } from 'next';
 import Head from 'next/head';
 import Content from '../components/Content';
 
-const IndexPage: NextPage = () => (
+const Page: NextPage = () => (
     <React.Fragment>
         <Head>
             <title>Nicholas Sylke — Software Engineer</title>
@@ -28,4 +28,4 @@ const IndexPage: NextPage = () => (
     </React.Fragment>
 )
 
-export default IndexPage;
+export default Page;
