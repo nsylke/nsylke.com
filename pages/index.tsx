@@ -17,6 +17,7 @@ const IndexPage: NextPage = () => (
 
             body {
                 height: 100%;
+                background-color: #194271;
                 font-family: 'Inter', sans-serif;
                 font-size: 10px;
                 color: #FFFFFF;
