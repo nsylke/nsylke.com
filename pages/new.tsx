@@ -54,8 +54,15 @@ const Page = () => (
 
             header div {
                 display: grid;
-                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-columns: 1fr;
                 grid-column-gap: 1em;
+                grid-row-gap: 1em;
+            }
+
+            @media screen and (min-width: 1150px) {
+                header div {
+                    grid-template-columns: 1fr 1fr 1fr;
+                }
             }
 
             header div a {
