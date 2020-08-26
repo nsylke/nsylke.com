@@ -65,6 +65,7 @@ const Page = () => (
                 font-size: 16px;
                 text-decoration: none;
                 color: #171D29;
+                transition: background-color 180ms ease-out 0s;
             }
 
             header div a > i {
@@ -76,14 +77,26 @@ const Page = () => (
                 background-color: rgba(234, 76, 137, 0.07);
             }
 
+            .dribbble:hover {
+                background-color: rgba(234, 76, 137, 0.115);
+            }
+
             .twitter {
                 color: #1DA1F2;
                 background-color: rgba(29, 161, 242, 0.07);
             }
 
+            .twitter:hover {
+                background-color: rgba(29, 161, 242, 0.115);
+            }
+
             .linkedin {
                 color: #2867B2;
                 background-color: rgba(40, 103, 178, 0.07);
+            }
+
+            .linkedin:hover {
+                background-color: rgba(40, 103, 178, 0.115);
             }
         `}</style>
     </React.Fragment>
