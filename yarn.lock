@@ -960,10 +960,10 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@next/react-dev-overlay@9.5.3-canary.23":
-  version "9.5.3-canary.23"
-  resolved "https://registry.yarnpkg.com/@next/react-dev-overlay/-/react-dev-overlay-9.5.3-canary.23.tgz#5fcf3244a0eb36ca99ba222e0be83c6abdd7d03c"
-  integrity sha512-FhVXxcpVUQT+o2hs/k5XSHCA9uVW47+afjCzxPWf67yopunPE1XYwLH3NBw9jIZWN7rKFrxDped/FPRxduxrPg==
+"@next/react-dev-overlay@9.5.3-canary.25":
+  version "9.5.3-canary.25"
+  resolved "https://registry.yarnpkg.com/@next/react-dev-overlay/-/react-dev-overlay-9.5.3-canary.25.tgz#983770478a6e77a23ddfeb61a367b7769ab1ccf3"
+  integrity sha512-69BQwFChW89MNH/eKMMn3zOSQC/vvG7lewtBZ64DA7kBBYLFLiiaNODDZot3f0czX4yFlrlREU8LO0gFOKZOuA==
   dependencies:
     "@babel/code-frame" "7.8.3"
     ally.js "1.4.1"
@@ -976,10 +976,10 @@
     stacktrace-parser "0.1.10"
     strip-ansi "6.0.0"
 
-"@next/react-refresh-utils@9.5.3-canary.23":
-  version "9.5.3-canary.23"
-  resolved "https://registry.yarnpkg.com/@next/react-refresh-utils/-/react-refresh-utils-9.5.3-canary.23.tgz#999610b83f423b51cfd03dc92cb1e4e3b500ddca"
-  integrity sha512-cR3qTka8MW6fXD/2qULLBZBrDT5kFIk/glnw7e7oToq2e+tauL7ujtyM67yLhbKAPvWfqWPqv+pgOsTOBnyo2Q==
+"@next/react-refresh-utils@9.5.3-canary.25":
+  version "9.5.3-canary.25"
+  resolved "https://registry.yarnpkg.com/@next/react-refresh-utils/-/react-refresh-utils-9.5.3-canary.25.tgz#be64f128f1a06700d772d104e8583534e61398fb"
+  integrity sha512-e8YdSvP2QpntS03l3eLCdVMIwOH+k5t7LYBKWurUy7jIYtld6Qc3lUxiRb2+2Ua+JJSi71gip+wyvj0uPATf0w==
 
 "@types/color-name@^1.1.1":
   version "1.1.1"
@@ -1646,12 +1646,7 @@ camelcase@5.3.1, camelcase@^5.3.1:
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-5.3.1.tgz#e3c9b31569e106811df242f715725a1f4c494320"
   integrity sha512-L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg==
 
-caniuse-lite@^1.0.30001093:
-  version "1.0.30001107"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001107.tgz#809360df7a5b3458f627aa46b0f6ed6d5239da9a"
-  integrity sha512-86rCH+G8onCmdN4VZzJet5uPELII59cUzDphko3thQFgAQG1RNa+sVLDoALIhRYmflo5iSIzWY3vu1XTWtNMQQ==
-
-caniuse-lite@^1.0.30001113:
+caniuse-lite@^1.0.30001093, caniuse-lite@^1.0.30001113:
   version "1.0.30001117"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001117.tgz#69a9fae5d480eaa9589f7641a83842ad396d17c4"
   integrity sha512-4tY0Fatzdx59kYjQs+bNxUwZB03ZEBgVmJ1UkFPz/Q8OLiUUbjct2EdpnXj0fvFTPej2EkbPIG0w8BWsjAyk1Q==
@@ -3217,10 +3212,10 @@ next-tick@~1.0.0:
   resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
   integrity sha1-yobR/ogoFpsBICCOPchCS524NCw=
 
-next@^9.5.3-canary.23:
-  version "9.5.3-canary.23"
-  resolved "https://registry.yarnpkg.com/next/-/next-9.5.3-canary.23.tgz#1949fa0f0e6c8d14749b5412b4a1a957ff3a297d"
-  integrity sha512-FAoUKe3YbQIojY8q5Fc8TOC0QjjS1tcdkxLH5LqAw4SiepxtcYkDxqgwNo5948xtUtcb0LS/RmBHHXRnWHUR2Q==
+next@^9.5.3-canary.25:
+  version "9.5.3-canary.25"
+  resolved "https://registry.yarnpkg.com/next/-/next-9.5.3-canary.25.tgz#d952d621232597beca9be356f06167b35cb9412b"
+  integrity sha512-b2/9NSICT39nIgQfweK2yOvX/AIkRHU4LX6GI4zqcRIkjzkrLJOnHM7vC0O0tUWiMR3rKdmn3w3YEpyEa8hlQw==
   dependencies:
     "@ampproject/toolbox-optimizer" "2.6.0"
     "@babel/code-frame" "7.8.3"
@@ -3241,8 +3236,8 @@ next@^9.5.3-canary.23:
     "@babel/preset-typescript" "7.9.0"
     "@babel/runtime" "7.9.6"
     "@babel/types" "7.9.6"
-    "@next/react-dev-overlay" "9.5.3-canary.23"
-    "@next/react-refresh-utils" "9.5.3-canary.23"
+    "@next/react-dev-overlay" "9.5.3-canary.25"
+    "@next/react-refresh-utils" "9.5.3-canary.25"
     ast-types "0.13.2"
     babel-plugin-syntax-jsx "6.18.0"
     babel-plugin-transform-define "2.0.0"
