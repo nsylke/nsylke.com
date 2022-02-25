@@ -1,12 +1,12 @@
 import React from 'react';
-import SocialLink from "../../atoms/social-link";
+import SocialLink from '../../atoms/social-link';
 
 const SocialMediaContainer: React.FC = () => (
     <React.Fragment>
         <div className="social-media-container">
-            <SocialLink type="LinkedIn" url="https://linkedin.com/in/nsylke" text="View my resume on LinkedIn"/>
-            <SocialLink type="Twitter" url="https://twitter.com/nsylke" text="Send me a DM on Twitter"/>
-            <SocialLink type="Dribbble" url="https://dribbble.com/nsylke" text="Check out my work on Dribbble"/>
+            <SocialLink type="LinkedIn" url="https://linkedin.com/in/nsylke" text="View my resume on LinkedIn" />
+            <SocialLink type="Twitter" url="https://twitter.com/nsylke" text="Send me a DM on Twitter" />
+            <SocialLink type="Dribbble" url="https://dribbble.com/nsylke" text="Check out my work on Dribbble" />
         </div>
         {/* language=CSS */}
         <style jsx>{`
@@ -24,6 +24,6 @@ const SocialMediaContainer: React.FC = () => (
             }
         `}</style>
     </React.Fragment>
-)
+);
 
 export default SocialMediaContainer;

@@ -7,15 +7,36 @@ const Content: React.FC = () => (
                 <h2>Nicholas Sylke</h2>
                 <h1>Software Engineer</h1>
                 <div className="description">
-                    <p>Hi! I am a software engineer with 4 years of software development experience and 8 years of web development experience. I have worked as a freelance software engineer, web developer and system administrator for the past 4 years.</p>
-                    <p>I have implemented sites from the ground up and improved/upgraded legacy systems to current ones. I have worked with platforms and frameworks like WordPress and Shopify.</p>
-                    <p>I use the following programming languages: Java, PHP, Node.js, JavaScript, Ruby, and C++. I also adhere to best practices in the software industry including, but not limited to, version control, backups, and documented code.</p>
                     <p>
-                        <a href="https://twitter.com/nsylke"><i className="fab fa-twitter" /></a>
-                        <a href="https://linkedin.com/in/nsylke"><i className="fab fa-linkedin-in" /></a>
-                        <a href="https://dribbble.com/nsylke"><i className="fab fa-dribbble" /></a>
-                        <a href="https://github.com/nsylke"><i className="fab fa-github" /></a>
-                        <a href="mailto:hello@nsylke.me"><i className="fas fa-envelope" /></a>
+                        Hi! I am a software engineer with 4 years of software development experience and 8 years of web
+                        development experience. I have worked as a freelance software engineer, web developer and system
+                        administrator for the past 4 years.
+                    </p>
+                    <p>
+                        I have implemented sites from the ground up and improved/upgraded legacy systems to current
+                        ones. I have worked with platforms and frameworks like WordPress and Shopify.
+                    </p>
+                    <p>
+                        I use the following programming languages: Java, PHP, Node.js, JavaScript, Ruby, and C++. I also
+                        adhere to best practices in the software industry including, but not limited to, version
+                        control, backups, and documented code.
+                    </p>
+                    <p>
+                        <a href="https://twitter.com/nsylke">
+                            <i className="fab fa-twitter" />
+                        </a>
+                        <a href="https://linkedin.com/in/nsylke">
+                            <i className="fab fa-linkedin-in" />
+                        </a>
+                        <a href="https://dribbble.com/nsylke">
+                            <i className="fab fa-dribbble" />
+                        </a>
+                        <a href="https://github.com/nsylke">
+                            <i className="fab fa-github" />
+                        </a>
+                        <a href="mailto:hello@nsylke.me">
+                            <i className="fas fa-envelope" />
+                        </a>
                     </p>
                 </div>
             </div>
@@ -29,7 +50,8 @@ const Content: React.FC = () => (
                 padding-right: 15px;
             }
 
-            main:before, main:after {
+            main:before,
+            main:after {
                 content: ' ';
                 display: table;
             }
@@ -52,7 +74,7 @@ const Content: React.FC = () => (
             }
 
             .content h2:after {
-                background: #93A1B0;
+                background: #93a1b0;
                 width: 85px;
                 height: 5px;
                 content: '';
@@ -74,22 +96,24 @@ const Content: React.FC = () => (
                 margin-bottom: 0;
             }
 
-            .description .fab, .description .fas {
+            .description .fab,
+            .description .fas {
                 font-size: 20px;
                 display: inline-block;
                 margin: 0 10px;
             }
 
-            .description p .fab:first-child, .description p .fas:first-child {
+            .description p .fab:first-child,
+            .description p .fas:first-child {
                 margin-left: 0;
             }
 
             .description a {
-                color: #FFFFFF;
+                color: #ffffff;
             }
 
             .description a:hover {
-                color: #93A1B0;
+                color: #93a1b0;
             }
 
             @media (min-width: 600px) {
@@ -138,6 +162,6 @@ const Content: React.FC = () => (
             }
         `}</style>
     </React.Fragment>
-)
+);
 
 export default Content;

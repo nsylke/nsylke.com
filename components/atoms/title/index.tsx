@@ -12,7 +12,7 @@ const Title: React.FC<Props> = ({ text }) => (
             h1 {
                 margin: 0;
                 font-size: 60px;
-                color: #171D29;
+                color: #171d29;
                 letter-spacing: -0.93px;
                 font-weight: 600;
             }

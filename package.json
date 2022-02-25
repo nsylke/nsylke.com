@@ -3,7 +3,8 @@
     "scripts": {
         "dev": "next",
         "build": "next build",
-        "start": "next start"
+        "start": "next start",
+        "lint": "prettier --ignore-path .gitignore --write ."
     },
     "dependencies": {
         "next": "^12.1.0",
@@ -16,6 +17,7 @@
         "@types/nprogress": "^0.2.0",
         "@types/react": "^17.0.39",
         "@types/react-dom": "^17.0.11",
+        "prettier": "^2.5.1",
         "typescript": "^4.5.5"
     }
 }

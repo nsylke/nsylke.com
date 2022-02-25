@@ -1,10 +1,10 @@
 import React from 'react';
-import Header from "../components/organisms/header";
+import Header from '../components/organisms/header';
 
 const Page = () => (
     <React.Fragment>
         <div className="container">
-            <Header/>
+            <Header />
         </div>
         {/* language=CSS */}
         <style jsx global>{`
@@ -22,6 +22,6 @@ const Page = () => (
             }
         `}</style>
     </React.Fragment>
-)
+);
 
 export default Page;

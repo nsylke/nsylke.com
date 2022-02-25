@@ -18,31 +18,31 @@ const SocialLink: React.FC<Props> = ({ type, url, text }) => {
                 return {
                     className: 'linkedin',
                     icon: 'fab fa-linkedin-in'
-                }
+                };
             case 'Twitter':
                 return {
                     className: 'twitter',
                     icon: 'fab fa-twitter'
-                }
+                };
             case 'Dribbble':
                 return {
                     className: 'dribbble',
                     icon: 'fab fa-dribbble'
-                }
+                };
             default:
                 return {
                     className: '',
                     icon: ''
-                }
+                };
         }
-    }
+    };
 
     const { className, icon } = resolveType(type);
 
     return (
         <React.Fragment>
             <a href={url} className={className}>
-                <i className={icon}/> {text}
+                <i className={icon} /> {text}
             </a>
             {/* language=CSS */}
             <style jsx>{`
@@ -52,7 +52,7 @@ const SocialLink: React.FC<Props> = ({ type, url, text }) => {
                     border-radius: 10px;
                     font-size: 16px;
                     text-decoration: none;
-                    color: #171D29;
+                    color: #171d29;
                     transition: background-color 180ms ease-out 0s;
                 }
 
@@ -61,7 +61,7 @@ const SocialLink: React.FC<Props> = ({ type, url, text }) => {
                 }
 
                 .dribbble {
-                    color: #EA4C89;
+                    color: #ea4c89;
                     background-color: rgba(234, 76, 137, 0.07);
                 }
 
@@ -70,7 +70,7 @@ const SocialLink: React.FC<Props> = ({ type, url, text }) => {
                 }
 
                 .twitter {
-                    color: #1DA1F2;
+                    color: #1da1f2;
                     background-color: rgba(29, 161, 242, 0.07);
                 }
 
@@ -79,7 +79,7 @@ const SocialLink: React.FC<Props> = ({ type, url, text }) => {
                 }
 
                 .linkedin {
-                    color: #2867B2;
+                    color: #2867b2;
                     background-color: rgba(40, 103, 178, 0.07);
                 }
 
@@ -88,7 +88,7 @@ const SocialLink: React.FC<Props> = ({ type, url, text }) => {
                 }
             `}</style>
         </React.Fragment>
-    )
+    );
 };
 
 export default SocialLink;
