@@ -1,4 +1,7 @@
 User-agent: *
-Disallow:
+Allow: /*
+
+Disallow: /api/*
+Disallow: /_next/*
 
 Sitemap: https://nsylke.me/sitemap.xml
