@@ -1,5 +1,5 @@
 import React from 'react';
-import SocialLink from '../../atoms/social-link';
+import SocialLink from '@components/atoms/social-link';
 
 const SocialMediaContainer: React.FC = () => (
     <React.Fragment>

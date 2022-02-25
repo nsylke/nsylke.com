@@ -1,7 +1,7 @@
 import React from 'react';
-import Title from '../../atoms/title';
-import Subtitle from '../../atoms/subtitle';
-import SocialMediaContainer from '../../molecules/social-media-container';
+import Title from '@components/atoms/title';
+import Subtitle from '@components/atoms/subtitle';
+import SocialMediaContainer from '@components/molecules/social-media-container';
 
 const Header: React.FC = () => {
     return (
