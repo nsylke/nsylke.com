@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/nsylke
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://nsylke.me
+  * I am nsylke (https://keybase.io/nsylke) on keybase.
+  * I have a public key ASBKybf20gukHysETz6w0bxdkkZ2HruPXYsavr3_smpdLgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01204ac9b7f6d20ba41f2b044f3eb0d1bc5d9246761ebb8f5d8b1abebdffb26a5d2e0a",
+      "host": "keybase.io",
+      "kid": "01204ac9b7f6d20ba41f2b044f3eb0d1bc5d9246761ebb8f5d8b1abebdffb26a5d2e0a",
+      "uid": "787f329f3a85219472b5feb5b2323f19",
+      "username": "nsylke"
+    },
+    "merkle_root": {
+      "ctime": 1645826013,
+      "hash": "37977c99629c7205f4733c9217ccf7302418300f0626054a7e006edac30fdddf58a2b881f9998079dba56de40a9322025a7b94c9b2794a7096e7139335768e77",
+      "hash_meta": "fb06c5d4984273f8b9235654d31f62e5c483745893e6b2bbad287a021f6ecbbe",
+      "seqno": 21956131
+    },
+    "service": {
+      "entropy": "BYrExekNocuG8N9G64l4NbBH",
+      "hostname": "nsylke.me",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.9.0"
+  },
+  "ctime": 1645826070,
+  "expire_in": 504576000,
+  "prev": "cd5fa5eb337ecb5d13e59b14cc3b17986a836e884e0fd258174677c90aa609b4",
+  "seqno": 4,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgSsm39tILpB8rBE8+sNG8XZJGdh67j12LGr69/7JqXS4Kp3BheWxvYWTESpcCBMQgzV+l6zN+y10T5ZsUzDsXmGqDbohOD9JYF0Z3yQqmCbTEICGG4+Cz+3twTjnH+VmLEX9Ij6HQQTOYosQ5/yLDf28KAgHCo3NpZ8RAJxrf5FlJDay4SNzLnEFZDUFr4CYAWBzLrAqqmTIjoZ51nVHIewHz2IDBlEmQxZjNsMGegDc7sw8JQjaRCJIdD6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIG263+4IJM5opiJ5rmkkTR1imhq+IrgxDuSsQu5b99Qlo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/nsylke
+
+==================================================================
