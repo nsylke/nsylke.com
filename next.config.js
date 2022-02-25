@@ -1,6 +1,8 @@
+/**
+ * @type {import('next').NextConfig}
+ */
 module.exports = {
+    swcMinify: true,
     poweredByHeader: false,
-    future: {
-        webpack5: true
-    }
+    compress: process.env.NODE_ENV === 'production'
 }
