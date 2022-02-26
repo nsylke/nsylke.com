@@ -31,7 +31,6 @@ class MyDocument extends Document {
                     <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
 
                     <link rel="stylesheet" href="css/normalize.css" />
-                    <link rel="stylesheet" href="/css/nprogress.css" />
                     <link
                         rel="stylesheet"
                         href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600.700&display=swap"
