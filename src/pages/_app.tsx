@@ -1,9 +1,24 @@
 import React from 'react';
 import type { AppProps } from 'next/app';
 import '../styles/global.css';
+import { DefaultSeo } from 'next-seo';
 
 const MyApp = ({ Component, pageProps }: AppProps) => {
-  return <Component {...pageProps} />;
+  return (
+    <React.Fragment>
+      <DefaultSeo
+        title="Nicholas Sylke"
+        description="Nicholas Sylke - React, Next.js, TypeScript, and Rust"
+        openGraph={{
+          type: 'website',
+          locale: 'en_US',
+          url: 'https://nsylke.me',
+          site_name: 'Nicholas Sylke'
+        }}
+      />
+      <Component {...pageProps} />
+    </React.Fragment>
+  );
 };
 
 export default MyApp;
