@@ -9,6 +9,12 @@ const IndexPage = () => (
       I'm a software engineer with a passion for building secure products with
       compelling designs.
     </p>
+    <h2 className='mt-8 mb-3 text-2xl font-semibold text-gray-900'>
+      Blog
+    </h2>
+    <p className='mb-5 text-gray-600'>
+      No articles yet, check back soon!
+    </p>
     <h2 className="mt-8 mb-3 text-2xl font-semibold text-gray-900">
       Work Experience
     </h2>
