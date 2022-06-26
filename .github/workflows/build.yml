@@ -13,7 +13,7 @@ jobs:
         with:
           node-version: 16
       - name: Install pnpm
-        uses: pnpm/actions-setup@v2.0.1
+        uses: pnpm/action-setup@v2.0.1
         id: pnpm-install
         with:
           version: 7
