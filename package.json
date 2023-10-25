@@ -8,7 +8,7 @@
     "update:deps": "npx npm-check-updates --upgrade && pnpm i"
   },
   "dependencies": {
-    "next": "^12.1.6",
+    "next": "^13.5.0",
     "next-seo": "^5.4.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
