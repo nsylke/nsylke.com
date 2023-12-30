@@ -10,15 +10,6 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
             rel="stylesheet"
           />
-          <script
-            async
-            id="chiffre:analytics"
-            src="https://chiffre.io/analytics.js"
-            data-chiffre-project-id="XcurqKJ2W88TtMfG"
-            data-chiffre-public-key="pk.jFCeiBdCsp-tHML41Qp3Ogwgrv14rOP-Rp6RJ2wwFGE"
-            referrerPolicy="origin"
-            crossOrigin="anonymous"
-          />
         </Head>
         <body>
           <Main />
