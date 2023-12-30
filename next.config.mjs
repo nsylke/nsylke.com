@@ -4,7 +4,7 @@
 const config = {
   reactStrictMode: true,
   swcMinify: true,
-  poweredByHeader: false
+  poweredByHeader: false,
 };
 
 export default config;

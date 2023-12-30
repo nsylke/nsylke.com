@@ -1,7 +1,8 @@
-import React from 'react';
-import type { AppProps } from 'next/app';
-import '../styles/global.css';
-import { DefaultSeo } from 'next-seo';
+import { DefaultSeo } from "next-seo";
+import type { AppProps } from "next/app";
+import React from "react";
+
+import "../styles/global.css";
 
 const MyApp = ({ Component, pageProps }: AppProps) => {
   return (
@@ -10,10 +11,10 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
         title="Nicholas Sylke"
         description="Nicholas Sylke - React, Next.js, TypeScript, and Rust"
         openGraph={{
-          type: 'website',
-          locale: 'en_US',
-          url: 'https://nsylke.me',
-          site_name: 'Nicholas Sylke'
+          type: "website",
+          locale: "en_US",
+          url: "https://nsylke.me",
+          site_name: "Nicholas Sylke",
         }}
       />
       <Component {...pageProps} />
