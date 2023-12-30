@@ -19,7 +19,7 @@ const IndexPage = () => (
         <tr className="border-b border-gray-200">
           <td className="py-4">
             <div className="flex flex-col">
-              <p className="text-sm text-gray-900">Member (Founder)</p>
+              <p className="text-sm text-gray-900">Member (Co-founder)</p>
               <p className="text-sm text-gray-600">Trpkit LLC</p>
             </div>
           </td>
