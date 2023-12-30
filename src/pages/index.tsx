@@ -4,7 +4,8 @@ const IndexPage = () => (
   <div className="container mx-auto mt-10 p-10">
     <h1 className="text-6xl font-semibold text-gray-900">Hi, I'm Nicholas Sylke</h1>
     <p className="mt-6 mb-12 text-xl font-normal text-gray-600">
-      I'm a software engineer with a passion for building secure products with compelling designs.
+      I'm a software engineer with a passion for building compelling designs and secure products using <a href="https://en.wikipedia.org/wiki/Zero-knowledge_proof" className="underline decoration-dotted decoration-blue-500">zero knowledge proofs</a> and <a
+      href="https://en.wikipedia.org/wiki/End-to-end_encryption" className="underline decoration-dotted decoration-blue-500">end-to-end encryption</a>.
     </p>
     <h2 className="mt-8 mb-3 text-2xl font-semibold text-gray-900">Blog</h2>
     <p className="mb-5 text-gray-600">No articles yet, check back soon!</p>
