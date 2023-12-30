@@ -69,10 +69,10 @@ const IndexPage = () => (
       <span className="mx-2">&bull;</span>
       <a
         target="_blank"
-        href="https://twitter.com/nsylke"
+        href="https://x.com/nsylke"
         className="hover:text-gray-800"
       >
-        Twitter
+        X (formerly Twitter)
       </a>
     </div>
   </div>
