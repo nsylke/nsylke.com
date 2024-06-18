@@ -1,4 +1,5 @@
 {
+  "name": "nsylke.com",
   "private": true,
   "scripts": {
     "build": "next build",
