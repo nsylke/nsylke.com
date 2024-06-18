@@ -29,13 +29,13 @@ const IndexPage = () => (
         <tr className="border-b border-gray-200">
           <td className="py-4">
             <div className="flex flex-col">
-              <p className="text-sm text-gray-900">Member (Co-founder)</p>
+              <p className="text-md text-gray-900 font-medium">Member (Co-founder)</p>
               <p className="text-sm text-gray-600">Trpkit LLC</p>
             </div>
           </td>
           <td className="py-4 hidden lg:table-cell">
             <p className="text-gray-900">
-              Making collaboration and communication easy, private, and secure.
+              An open source end-to-end encrypted web insights platform
             </p>
           </td>
           <td className="py-4">
@@ -45,7 +45,7 @@ const IndexPage = () => (
         <tr>
           <td className="py-4">
             <div className="flex flex-col">
-              <p className="text-sm text-gray-900">Software Engineer</p>
+              <p className="text-md text-gray-900 font-medium">Software Engineer</p>
               <p className="text-sm text-gray-600">Ken Cook Co.</p>
             </div>
           </td>
