@@ -8,21 +8,21 @@
     "update:deps": "npx npm-check-updates --upgrade && pnpm i"
   },
   "dependencies": {
-    "next": "^14.0.4",
-    "next-seo": "^6.4.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "next": "^14.2.4",
+    "next-seo": "^6.5.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "^4.3.0",
-    "@types/node": "^20.10.6",
-    "@types/react": "^18.2.46",
-    "@types/react-dom": "^18.2.18",
-    "autoprefixer": "^10.4.16",
-    "cssnano": "^6.0.2",
-    "postcss": "^8.4.32",
-    "prettier": "^3.1.1",
-    "tailwindcss": "^3.4.0",
-    "typescript": "^5.3.3"
+    "@types/node": "^20.14.5",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.19",
+    "cssnano": "^6.1.2",
+    "postcss": "^8.4.38",
+    "prettier": "^3.3.2",
+    "tailwindcss": "^3.4.4",
+    "typescript": "^5.4.5"
   }
 }
