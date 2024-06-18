@@ -1,4 +1,4 @@
 Contact: https://keybase.io/nsylke
 Preferred-Languages: en
-Canonical: https://nsylke.me/.well-known/security.txt
-Expires: 2023-01-31T00:00:00Z
+Canonical: https://nsylke.com/.well-known/security.txt
+Expires: 2025-01-31T00:00:00Z
