@@ -1,11 +1,10 @@
 {
   "private": true,
   "scripts": {
-    "dev": "next",
     "build": "next build",
+    "dev": "next --turbo",
     "start": "next start",
-    "format": "prettier --ignore-path .gitignore --write .",
-    "update:deps": "npx npm-check-updates --upgrade && pnpm i"
+    "check": "biome check --write ."
   },
   "dependencies": {
     "next": "^14.2.4",
@@ -14,14 +13,13 @@
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@trivago/prettier-plugin-sort-imports": "^4.3.0",
+    "@biomejs/biome": "1.8.1",
     "@types/node": "^20.14.5",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "autoprefixer": "^10.4.19",
     "cssnano": "^6.1.2",
     "postcss": "^8.4.38",
-    "prettier": "^3.3.2",
     "tailwindcss": "^3.4.4",
     "typescript": "^5.4.5"
   }
