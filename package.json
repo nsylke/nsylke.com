@@ -5,7 +5,7 @@
     "build": "next build",
     "dev": "next --turbo",
     "start": "next start",
-    "check": "biome check --write ."
+    "format": "biome check --write ."
   },
   "dependencies": {
     "next": "^14.2.4",
@@ -19,7 +19,6 @@
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "autoprefixer": "^10.4.19",
-    "cssnano": "^6.1.2",
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.4",
     "typescript": "^5.4.5"
