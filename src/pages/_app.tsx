@@ -2,7 +2,7 @@ import { DefaultSeo } from "next-seo";
 import type { AppProps } from "next/app";
 import React from "react";
 
-import "../styles/global.css";
+import "@/styles/global.css";
 
 const MyApp = ({ Component, pageProps }: AppProps) => {
   return (
