@@ -14,8 +14,12 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Nicholas Sylke",
-  description: "Nicholas Sylke - Java, TypeScript, and Rust",
+  title: {
+    template: "%s | Nicholas Sylke",
+    default: "Nicholas Sylke - Software Engineer",
+  },
+  description:
+    "Nicholas Sylke is a Software Engineer with a passion for building secure and scalable applications.",
   metadataBase: new URL("https://nsylke.com"),
   alternates: {
     canonical: "/",
