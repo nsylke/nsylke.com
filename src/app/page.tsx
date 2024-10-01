@@ -53,7 +53,7 @@ export default function Page() {
                 </Text>
               </td>
               <td className="pb-4">
-                <Text>Jan 2020 - Now</Text>
+                <Text>Jan 2022 - Now</Text>
               </td>
             </tr>
             <tr>
