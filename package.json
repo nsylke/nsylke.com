@@ -2,6 +2,7 @@
   "name": "nsylke.com",
   "private": true,
   "scripts": {
+    "start": "next start",
     "build": "next build",
     "dev": "next dev --turbo",
     "format": "biome check --write ."
