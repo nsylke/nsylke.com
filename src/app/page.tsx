@@ -47,7 +47,10 @@ export default function Page() {
                 </div>
               </td>
               <td className="pb-4 hidden lg:table-cell">
-                <Text>An open-source, zero-knowledge, post-quantum, end-to-end encrypted web insights platform</Text>
+                <Text>
+                  An open-source, zero-knowledge, post-quantum, end-to-end encrypted web insights
+                  platform
+                </Text>
               </td>
               <td className="pb-4">
                 <Text>Jan 2020 - Now</Text>
