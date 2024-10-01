@@ -1,91 +1,87 @@
+import { Heading } from "@/components/Heading";
+import { Strong } from "@/components/Strong";
+import { Subheading } from "@/components/Subheading";
+import { Text } from "@/components/Text";
+import { TextLink } from "@/components/TextLink";
 import React from "react";
 
 export default function Page() {
   return (
-    <div className="container mx-auto mt-10 p-10">
-      <h1 className="text-6xl font-semibold text-gray-900">Hi, I'm Nicholas Sylke</h1>
-      <p className="mt-6 mb-12 text-xl font-normal text-gray-600">
-        I'm a software engineer with a passion for building compelling designs and secure products
-        using{" "}
-        <a
-          href="https://en.wikipedia.org/wiki/Zero-knowledge_proof"
-          className="underline decoration-dotted decoration-blue-500"
-        >
-          zero knowledge proofs
-        </a>{" "}
-        and{" "}
-        <a
-          href="https://en.wikipedia.org/wiki/End-to-end_encryption"
-          className="underline decoration-dotted decoration-blue-500"
-        >
-          end-to-end encryption
-        </a>
-        .
-      </p>
-      <h2 className="mt-8 mb-3 text-2xl font-semibold text-gray-900">Blog</h2>
-      <p className="mb-5 text-gray-600">No articles yet, check back soon!</p>
-      <h2 className="mt-8 mb-3 text-2xl font-semibold text-gray-900">Work Experience</h2>
-      <table className="w-full">
-        <tbody>
-          <tr className="border-b border-gray-200">
-            <td className="py-4">
-              <div className="flex flex-col">
-                <p className="text-md text-gray-900 font-medium">Member (Co-founder)</p>
-                <p className="text-sm text-gray-600">Trpkit LLC</p>
-              </div>
-            </td>
-            <td className="py-4 hidden lg:table-cell">
-              <p className="text-gray-900">
-                An open source end-to-end encrypted web insights platform
-              </p>
-            </td>
-            <td className="py-4">
-              <p className="text-gray-900">Jan 2020 - Now</p>
-            </td>
-          </tr>
-          <tr>
-            <td className="py-4">
-              <div className="flex flex-col">
-                <p className="text-md text-gray-900 font-medium">Software Engineer</p>
-                <p className="text-sm text-gray-600">Ken Cook Co.</p>
-              </div>
-            </td>
-            <td className="py-4 hidden lg:table-cell">
-              <p className="text-gray-900">Building e-learning and e-commerce platform</p>
-            </td>
-            <td className="py-4">
-              <p className="text-gray-900">Dec 2019 - Now</p>
-            </td>
-          </tr>
-        </tbody>
-      </table>
+    <div className="container mx-auto mt-20 px-6 lg:px-0 space-y-8">
+      <div className="space-y-2">
+        <Heading>Hi, I'm Nicholas Sylke</Heading>
+        <Text>
+          I'm a software engineer with a passion for building compelling designs and secure products
+          using{" "}
+          <TextLink
+            target="_blank"
+            href="https://en.wikipedia.org/wiki/Zero-knowledge_proof"
+            rel="noreferrer"
+          >
+            zero knowledge proofs
+          </TextLink>{" "}
+          and{" "}
+          <TextLink
+            target="_blank"
+            href="https://en.wikipedia.org/wiki/End-to-end_encryption"
+            rel="noreferrer"
+          >
+            end-to-end encryption
+          </TextLink>
+          .
+        </Text>
+      </div>
+      <div className="space-y-2">
+        <Subheading>Blog</Subheading>
+        <Text>No articles yet, check back soon!</Text>
+      </div>
+      <div className="space-y-2">
+        <Subheading>Work Experience</Subheading>
+        <table className="w-full">
+          <tbody>
+            <tr className="border-b border-zinc-950/10 dark:border-white/10">
+              <td className="pb-4">
+                <div className="flex flex-col">
+                  <Strong>Member (Co-founder)</Strong>
+                  <Text>Trpkit LLC</Text>
+                </div>
+              </td>
+              <td className="pb-4 hidden lg:table-cell">
+                <Text>An open source end-to-end encrypted web insights platform</Text>
+              </td>
+              <td className="pb-4">
+                <Text>Jan 2020 - Now</Text>
+              </td>
+            </tr>
+            <tr>
+              <td className="py-4">
+                <div className="flex flex-col">
+                  <Strong>Software Engineer</Strong>
+                  <Text>Ken Cook Co.</Text>
+                </div>
+              </td>
+              <td className="py-4 hidden lg:table-cell">
+                <Text>Building e-learning and e-commerce platform</Text>
+              </td>
+              <td className="py-4">
+                <Text>Dec 2019 - Now</Text>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
       <div className="flex justify-center gap-2 mt-8 mb-5 text-gray-600">
-        <a
-          target="_blank"
-          href="https://github.com/nsylke"
-          className="hover:text-gray-800"
-          rel="noreferrer"
-        >
+        <TextLink target="_blank" href="https://github.com/nsylke" rel="noreferrer">
           GitHub
-        </a>
+        </TextLink>
         <span className="mx-2">&bull;</span>
-        <a
-          target="_blank"
-          href="https://linkedin.com/in/nsylke"
-          className="hover:text-gray-800"
-          rel="noreferrer"
-        >
+        <TextLink target="_blank" href="https://linkedin.com/in/nsylke" rel="noreferrer">
           LinkedIn
-        </a>
+        </TextLink>
         <span className="mx-2">&bull;</span>
-        <a
-          target="_blank"
-          href="https://x.com/nsylke"
-          className="hover:text-gray-800"
-          rel="noreferrer"
-        >
+        <TextLink target="_blank" href="https://x.com/nsylke" rel="noreferrer">
           X (formerly Twitter)
-        </a>
+        </TextLink>
       </div>
     </div>
   );

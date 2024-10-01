@@ -3,14 +3,15 @@
   "private": true,
   "scripts": {
     "build": "next build",
-    "dev": "next --turbo",
-    "start": "next start",
+    "dev": "next dev --turbo",
     "format": "biome check --write ."
   },
   "dependencies": {
+    "@headlessui/react": "^2.1.8",
     "@keystatic/core": "^0.5.36",
     "@keystatic/next": "^5.0.1",
     "@markdoc/markdoc": "^0.4.0",
+    "clsx": "^2.1.1",
     "next": "^14.2.13",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
