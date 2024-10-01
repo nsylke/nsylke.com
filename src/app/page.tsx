@@ -18,7 +18,15 @@ export default function Page() {
             href="https://en.wikipedia.org/wiki/Zero-knowledge_proof"
             rel="noreferrer"
           >
-            zero knowledge proofs
+            zero-knowledge proofs
+          </TextLink>
+          ,{" "}
+          <TextLink
+            target="_blank"
+            href="https://en.wikipedia.org/wiki/Post-quantum_cryptography"
+            rel="noreferrer"
+          >
+            post-quantum cryptography
           </TextLink>{" "}
           and{" "}
           <TextLink
